@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a9043fe7-83fe-4a33-9032-18b5a45678e4" name="TPAMI_demo">
+        <fileTransfer rootFolder="/home/lixin/PythonCode/TPAMI/demo" accessType="SFTP" host="10.96.177.154" port="22" sshConfigId="b96feaa2-b4f3-4a95-9946-328535d02f63" sshConfig="lixin@10.96.177.154:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
