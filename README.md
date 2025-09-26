@@ -2,7 +2,7 @@
 # NFS-Fi: A Wi-Fi Near-Field Sensing Dataset for Multi-Person Activity Recognition
 
 Welcome to NFS-Fi dataset!
-You can download the NFS-Fi dataset from the following link: www.zenodo.com.
+You can download the NFS-Fi dataset from the following link: [www.zenodo.com](https://zenodo.org/uploads/17205591).
 
 We warmly welcome researchers to utilize our dataset and greatly value your feedback, which will help us further improve and enrich this resource.
 To the best of our knowledge, this is the first dataset that enables Wi-Fi-based multi-person activity recognition utilizing near-field sensing.
@@ -42,7 +42,7 @@ For detailed statistics, please see Table 1.
 
 **<center>Table 1: NFS-Fi Dataset Overview</center>**
 
-![Table1](\Images\Table.png)
+![Table1](/Images/Table.png)
 
 <br/>
 
@@ -82,7 +82,7 @@ Across the six environments, LR contains the most samples (12,121) and CR the fe
 The detailed distribution is shown in Figure. 1.
 
 
-![Fig_sample](\Images\stat_sample.png)
+![Fig_sample](/Images/stat_sample.png)
 
 **<center>Figure 1: Statistics of samples across subjects, activities, and environments.</center>**
 
