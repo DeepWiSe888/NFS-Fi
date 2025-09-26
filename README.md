@@ -172,7 +172,7 @@ To facilitate easy access to and usage of our NFS-Fi dataset, we provide a demon
 ### 3.3. Workflow
 
 - Data Processing:
-  + We have provided pre-processed data, which is saved in the ```Proc_data``` directory. For details, please refer to ```main_Process.m```. Users can adapt this code by modifying lines **32** and **39** to implement their own methods.
+  + We have provided pre-processed data, which is saved in the ```Proc_data``` directory. For details, please refer to ```main_Process.m``` in the folder '''Process'''. Users can adapt this code by modifying lines **32** and **39** to implement their own methods.
 
 - Running the Neural Network Model:
   + Open ```main_demo.py``` and change the ```FILE_PATH``` on line **34** to your own ```Proc_data``` directory path. Then, execute the script. We have included detailed comments in the code to facilitate user customization and debugging.
