@@ -6,7 +6,7 @@ You can download the NFS-Fi dataset from the following link: [Dataset](https://z
 
 We warmly welcome researchers to utilize our dataset and greatly value your feedback, which will help us further improve and enrich this resource.
 To the best of our knowledge, this is the first dataset that enables Wi-Fi-based multi-person activity recognition utilizing near-field sensing.
-We kindly request that you cite our paper "[**Cross-Domain Multi-Person Human Activity Recognition via Near-Field Wi-Fi Sensing**](xxx)" if you use this dataset.
+We kindly request that you cite our paper "[**Cross-Domain Multi-Person Human Activity Recognition via Near-Field Wi-Fi Sensing**](/Files/manuscript.pdf)" if you use this dataset.
 
 ## Contents
 [1. Introduction](#1-introduction) 
@@ -30,7 +30,7 @@ Our NFS-Fi dataset is a practical Wi-Fi multi-person sensing dataset, offering t
 ## 2. Dataset Description
 
 ### 2.1. Data Collection
-Please refer to **Section IV-A** of our [paper](xxx) for a detailed description of the experiment setup.
+Please refer to **Section IV-A** of our [paper](/Files/manuscript.pdf) for a detailed description of the experiment setup.
 In this section, we provide comprehensive instructions that enable users to collect their own data.
 
 
