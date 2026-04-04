@@ -32,7 +32,7 @@ Our NFS-Fi dataset is a practical Wi-Fi multi-person sensing dataset, offering t
 ### 2.1. Data Collection
 Please refer to **Section IV-A** of our [paper](https://arxiv.org/abs/2510.17816) for a detailed description of the experiment setup.
 In this section, we provide comprehensive instructions that enable users to collect their own data.
-
+Besides, we collect data using the ```logger``` mode in the PicoScenes tool, with detailed instructions available in the tutorial provided at the following [link](https://ps.zpj.io/manual/scenarios.html#listening-to-wi-fi-traffic-and-measuring-csi-for-802-11a-g-n-ac-ax-be-format-frame).
 
 ### 2.2. Dataset Overview
 Our NFS-Fi dataset contains 64,823 samples, collected from 56 subjects performing 10 activities across 6 distinct environments.
