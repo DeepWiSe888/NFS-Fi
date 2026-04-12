@@ -2,7 +2,12 @@
 # NFS-Fi: A Wi-Fi Near-Field Sensing Dataset for Multi-Person Activity Recognition
 
 Welcome to NFS-Fi dataset!
-You can download the NFS-Fi dataset from the following link: [Dataset](https://zenodo.org/records/17211797).
+You can download the NFS-Fi dataset from the following links:
+
+[Zenodo](https://zenodo.org/records/17211797)
+[Hugging Face](https://huggingface.co/datasets/MadFrogL/NFS-Fi_A_Wi-Fi_Near-Field_Sensing_Dataset_for_Multi-Person_Activity_Recognition)
+
+*We are also exploring more data repositories to enable convenient access for all users. Suggestions welcome.*
 
 We warmly welcome researchers to utilize our dataset and greatly value your feedback, which will help us further improve and enrich this resource.
 To the best of our knowledge, this is the first dataset that enables Wi-Fi-based multi-person activity recognition utilizing near-field sensing.
