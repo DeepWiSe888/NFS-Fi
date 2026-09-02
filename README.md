@@ -1,8 +1,10 @@
 
 # NFS-Fi: A Wi-Fi Near-Field Sensing Dataset for Multi-Person Activity Recognition
 
-🎉🎉🎉**News:** This work has been accepted by IEEE TPAMI!
+🎉🎉🎉**News:**
+- [Aug. 2026] This work has been accepted by [IEEE TPAMI](https://ieeexplore.ieee.org/document/11673827)!
 
+---
 Welcome to NFS-Fi dataset!
 You can download the NFS-Fi dataset from the following links:
 
@@ -16,7 +18,7 @@ You can download the NFS-Fi dataset from the following links:
 
 We warmly welcome researchers to utilize our dataset and greatly value your feedback, which will help us further improve and enrich this resource.
 To the best of our knowledge, this is the first dataset that enables Wi-Fi-based multi-person activity recognition utilizing near-field sensing.
-We kindly request that you cite our paper "[**Cross-Domain Multi-Person Human Activity Recognition via Near-Field Wi-Fi Sensing**](https://arxiv.org/abs/2510.17816)" if you use this dataset.
+We kindly request that you cite our paper "[**Cross-Domain Multi-Person Human Activity Recognition via Near-Field Wi-Fi Sensing**](https://ieeexplore.ieee.org/document/11673827)" if you use this dataset.
 
 ## Contents
 [1. Introduction](#1-introduction) 
