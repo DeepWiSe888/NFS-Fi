@@ -1,26 +1,38 @@
 
 # NFS-Fi: A Wi-Fi Near-Field Sensing Dataset for Multi-Person Activity Recognition
 
-🎉🎉🎉**News:**
-- [Aug. 2026] This work has been accepted by [IEEE TPAMI](https://ieeexplore.ieee.org/document/11673827)!
+## 📢 **News:**
+- **[Aug. 2026]** 🎉 Our paper "**Cross-Domain Multi-Person Human Activity Recognition via Near-Field Wi-Fi Sensing**" has been accepted by *IEEE TPAMI*!  [![Paper](https://img.shields.io/badge/Paper-IEEE%20TPAMI-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/11673827) [![DOI](https://img.shields.io/badge/DOI-10.1109%2FTPAMI.2026.3729614-007EC6)](https://doi.org/10.1109/TPAMI.2026.3729614)
 
 ---
-Welcome to NFS-Fi dataset!
+## 🔍 Overview
+
+<p align="center">
+  <img src="Images/teaser.svg" width="70%">
+</p>
+
+NFS-Fi is a Wi-Fi sensing dataset designed for **multi-person activity recognition**. To the best of our knowledge, it is the first dataset to support Wi-Fi-based multi-person activity recognition using near-field sensing.
+
 You can download the NFS-Fi dataset from the following links:
 
-[Zenodo](https://zenodo.org/records/17211797)
+| Repository | Download Statistics |
+|:---|:---|
+| [Zenodo](https://zenodo.org/records/17211797) | [![Zenodo Downloads](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fzenodo.org%2Fapi%2Frecords%2F17211797&query=%24.stats.version_unique_downloads&label=Zenodo%20Downloads&logo=zenodo&color=1682D4&cacheSeconds=3600)](https://zenodo.org/records/17211797) |
+| [Hugging Face](https://huggingface.co/datasets/MadFrogL/NFS-Fi_A_Wi-Fi_Near-Field_Sensing_Dataset_for_Multi-Person_Activity_Recognition) | [![Total Downloads](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FMadFrogL%2FNFS-Fi_A_Wi-Fi_Near-Field_Sensing_Dataset_for_Multi-Person_Activity_Recognition%3Fexpand%3DdownloadsAllTime&query=%24.downloadsAllTime&label=Total%20Downloads&logo=huggingface&color=FFD21E&cacheSeconds=3600)](https://huggingface.co/datasets/MadFrogL/NFS-Fi_A_Wi-Fi_Near-Field_Sensing_Dataset_for_Multi-Person_Activity_Recognition) |
+| [Kaggle](https://www.kaggle.com/datasets/madfrogl/a-wi-fi-near-field-sensing-dataset) | [![Kaggle Downloads](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fwww.kaggle.com%2Fapi%2Fv1%2Fdatasets%2Fview%2Fmadfrogl%2Fa-wi-fi-near-field-sensing-dataset&query=%24.totalDownloads&label=Kaggle%20Downloads&logo=kaggle&color=20BEFF&cacheSeconds=3600)](https://www.kaggle.com/datasets/madfrogl/a-wi-fi-near-field-sensing-dataset) |
 
-[Hugging Face](https://huggingface.co/datasets/MadFrogL/NFS-Fi_A_Wi-Fi_Near-Field_Sensing_Dataset_for_Multi-Person_Activity_Recognition)
-
-[Kaggle](https://www.kaggle.com/datasets/madfrogl/a-wi-fi-near-field-sensing-dataset)
-
-*We are also exploring more data repositories to enable convenient access for all users. Suggestions welcome.*
+***Note:*** *We are also exploring more data repositories to enable convenient access for all users. Suggestions welcome.*
 
 We warmly welcome researchers to utilize our dataset and greatly value your feedback, which will help us further improve and enrich this resource.
-To the best of our knowledge, this is the first dataset that enables Wi-Fi-based multi-person activity recognition utilizing near-field sensing.
-We kindly request that you cite our paper "[**Cross-Domain Multi-Person Human Activity Recognition via Near-Field Wi-Fi Sensing**](https://ieeexplore.ieee.org/document/11673827)" if you use this dataset.
 
-## Contents
+## 📝 Citation
+If you find NFS-Fi useful in your research, please consider citing our paper:
+**Cross-Domain Multi-Person Human Activity Recognition via Near-Field Wi-Fi Sensing**, *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*.
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20TPAMI-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/11673827) [![DOI](https://img.shields.io/badge/DOI-10.1109%2FTPAMI.2026.3729614-007EC6)](https://doi.org/10.1109/TPAMI.2026.3729614)
+
+---
+
+## 📑 Contents
 [1. Introduction](#1-introduction) 
 
 [2. Dataset Description](#2-dataset-description)
@@ -42,7 +54,7 @@ Our NFS-Fi dataset is a practical Wi-Fi multi-person sensing dataset, offering t
 ## 2. Dataset Description
 
 ### 2.1. Data Collection
-Please refer to **Section IV-A** of our [paper](https://arxiv.org/abs/2510.17816) for a detailed description of the experiment setup.
+Please refer to **Section IV-A** of our [paper](https://ieeexplore.ieee.org/document/11673827) for a detailed description of the experiment setup.
 In this section, we provide comprehensive instructions that enable users to collect their own data.
 Besides, we collect data using the ```logger``` mode in the PicoScenes tool, with detailed instructions available in the tutorial provided at the following [link](https://ps.zpj.io/manual/scenarios.html#listening-to-wi-fi-traffic-and-measuring-csi-for-802-11a-g-n-ac-ax-be-format-frame).
 
@@ -182,6 +194,10 @@ To facilitate easy access to and usage of our NFS-Fi dataset, we provide a demon
 - MATLAB: The MATLAB code is implemented in R2023b version without relying on any specialized toolboxes, ensuring compatibility with earlier versions.
 
 ### 3.3. Workflow
+
+<p align="center">
+  <img src="Images/system_overview.svg" width="95%">
+</p>
 
 - Data Processing:
   + We have provided pre-processed data, which is saved in the ```Proc_data``` directory. For details, please refer to ```main_Process.m``` in the folder '''Process'''. Users can adapt this code by modifying lines **32** and **39** to implement their own methods.
