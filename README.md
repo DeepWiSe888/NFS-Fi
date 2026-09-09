@@ -19,7 +19,9 @@ You can download the NFS-Fi dataset from the following links:
 |:---|:---|
 | [Zenodo](https://zenodo.org/records/17211797) | [![Zenodo Downloads](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fzenodo.org%2Fapi%2Frecords%2F17211797&query=%24.stats.version_unique_downloads&label=Zenodo%20Downloads&logo=zenodo&color=1682D4&cacheSeconds=3600)](https://zenodo.org/records/17211797) |
 | [Hugging Face](https://huggingface.co/datasets/MadFrogL/NFS-Fi_A_Wi-Fi_Near-Field_Sensing_Dataset_for_Multi-Person_Activity_Recognition) | [![Total Downloads](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FMadFrogL%2FNFS-Fi_A_Wi-Fi_Near-Field_Sensing_Dataset_for_Multi-Person_Activity_Recognition%3Fexpand%3DdownloadsAllTime&query=%24.downloadsAllTime&label=Total%20Downloads&logo=huggingface&color=FFD21E&cacheSeconds=3600)](https://huggingface.co/datasets/MadFrogL/NFS-Fi_A_Wi-Fi_Near-Field_Sensing_Dataset_for_Multi-Person_Activity_Recognition) |
+|[Baidu AI Studio](https://aistudio.baidu.com/dataset/detail/397480/file) | [![AI Studio Usage](https://img.shields.io/badge/AI%20Studio%20Studio-Available-blue)](https://aistudio.baidu.com/dataset/detail/397480/intro) |
 | [Kaggle](https://www.kaggle.com/datasets/madfrogl/a-wi-fi-near-field-sensing-dataset) | [![Kaggle Downloads](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fwww.kaggle.com%2Fapi%2Fv1%2Fdatasets%2Fview%2Fmadfrogl%2Fa-wi-fi-near-field-sensing-dataset&query=%24.totalDownloads&label=Kaggle%20Downloads&logo=kaggle&color=20BEFF&cacheSeconds=3600)](https://www.kaggle.com/datasets/madfrogl/a-wi-fi-near-field-sensing-dataset) |
+<!-- AI Studio 里面的 “Studio-Available” 换 “Usage-2” 会显示使用量 -->
 
 ***Note:*** *We are also exploring more data repositories to enable convenient access for all users. Suggestions welcome.*
 
